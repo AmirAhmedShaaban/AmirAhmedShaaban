@@ -87,7 +87,7 @@ You can explore my projects, experiments, and design studies here:
 ---
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AmirAhmedShaaban/AmirAhmedShaaban/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
+<img src="https://raw.githubusercontent.com/Elanza-48/Elanza-48/refs/heads/main/images/loop-code.gif" alt="Flowing Code Animation" height="120"/>
   <p><sub><i>Continuous learning. Continuous refinement.</i></sub></p>
 </div>
 
