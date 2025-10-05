@@ -1,5 +1,5 @@
 <div align="center">
-  <img height="160" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" alt="Developer Animation" />
+  <img src="https://raw.githubusercontent.com/AmirAhmedShaaban/AmirAhmedShaaban/main/assets/dev-header.gif" alt="Amir Shaaban Developer Banner" width="100%" />
 </div>
 
 ---
@@ -26,13 +26,13 @@
 
 ### 🧭 About Me
 
-I am a **Full-Stack Developer** with a structural and analytical approach to software development.  
-My philosophy centers on **rational architecture**, where scalability, modularity, and precision converge.  
-I view programming as a dialogue between form and logic — a systematic construction rather than improvisation.
+I am a **Full-Stack Developer** who views programming as a discipline of clarity and structure.  
+My interest lies in **system architecture**, **backend efficiency**, and **frontend coherence** — the triad that sustains scalable applications.  
+Through **MERN technologies**, I design logical, modular, and extensible systems that prioritize internal consistency and maintainability.
 
 ---
 
-### ⚙️ Tech Stack
+### ⚙️ Technical Stack
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="React" />
@@ -52,47 +52,47 @@ I view programming as a dialogue between form and logic — a systematic constru
 
 ### 🚀 Current Focus
 
-- Architecting **robust backend systems** with security and maintainability in mind.  
-- Enhancing **state management** and performance across frontend layers.  
-- Integrating **Bootstrap** and **Sass** for elegant, responsive UI systems.  
-- Streamlining deployments and API efficiency through structural consistency.
+- Building **modular backend systems** with well-defined API layers.  
+- Enhancing **deployment pipelines** and **security protocols**.  
+- Exploring **frontend optimization** and advanced **state management** patterns.  
+- Unifying UI logic with **Sass**, **Bootstrap**, and **component-based design**.
 
 ---
 
 ### 📚 Philosophy
 
-> “Elegance emerges not from abundance, but from deliberate subtraction.”
+> “Simplicity is not the absence of complexity; it is the mastery of order.”
 
-I treat programming as a disciplined form of thought —  
-each abstraction must **justify its existence** within the system’s internal logic.  
-A well-structured codebase resembles a philosophical argument: coherent, necessary, and complete.
+Programming to me is a rational dialogue between form and logic.  
+Each abstraction must justify its existence — a codebase, like a theorem, is only complete when internally consistent.  
+I pursue design that balances **efficiency**, **reason**, and **aesthetic restraint**.
 
 ---
 
 ### 🌐 Portfolio
 
-Visit my portfolio for selected works and experiments:  
+Explore my work and ongoing projects:  
 👉 **[amirshaaban.netlify.app](https://amirshaaban.netlify.app)**
 
 ---
 
-### 📊 GitHub Analytics
+### 📊 GitHub Insights
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AmirAhmedShaaban&show_icons=true&theme=react&hide_border=true&include_all_commits=true&count_private=true" height="160" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=AmirAhmedShaaban&layout=compact&theme=react&hide_border=true&langs_count=8" height="160" alt="Top Languages" />
-  <img src="https://streak-stats.demolab.com?user=AmirAhmedShaaban&theme=react&hide_border=true" height="160" alt="Streak Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=AmirAhmedShaaban&show_icons=true&theme=react&hide_border=true&include_all_commits=true&count_private=true" height="160" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=AmirAhmedShaaban&layout=compact&theme=react&hide_border=true&langs_count=8" height="160" />
+  <img src="https://streak-stats.demolab.com?user=AmirAhmedShaaban&theme=react&hide_border=true" height="160" />
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbm00djI2bzVydXltZzZydTVmMWl0YmtkczdsaGZtYWY4ZmE5dWZqOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/tXL4FHPSnVJ0A/giphy.gif" alt="Wave Animation" height="120"/>
-  <p><sub><i>Continuous learning. Continuous refinement.</i></sub></p>
+  <img src="https://raw.githubusercontent.com/AmirAhmedShaaban/AmirAhmedShaaban/main/assets/codewave.gif" alt="Code Motion Animation" height="140"/>
+  <p><sub><i>Continuous learning • Structural refinement • Rational creation</i></sub></p>
 </div>
 
 ---
 
 <p align="center">
-  <sub>Crafted by <strong>Amir Shaaban</strong> • 2025</sub>
+  <sub>crafted by <strong>Amir Shaaban</strong> • 2025</sub>
 </p>
