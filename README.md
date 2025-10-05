@@ -26,9 +26,9 @@
 
 ### 🧭 About Me
 
-I am a **Full-Stack Developer** who views programming not as an act of creativity alone, but as a pursuit of structural clarity.  
-My work philosophy is grounded in **rational design** — systems should be **scalable, predictable, and internally coherent**.  
-With a core specialization in the **MERN stack**, I approach every project as an exercise in balancing **form, logic, and maintainability**.
+I am a **Full-Stack Developer** with a structural and analytical approach to software development.  
+My philosophy centers on **rational architecture**, where scalability, modularity, and precision converge.  
+I view programming as a dialogue between form and logic — a systematic construction rather than improvisation.
 
 ---
 
@@ -52,10 +52,10 @@ With a core specialization in the **MERN stack**, I approach every project as an
 
 ### 🚀 Current Focus
 
-- Building **modular full-stack architectures** with an emphasis on scalability and security.  
-- Refining backend logic, API orchestration, and **system resilience**.  
-- Elevating frontend performance through **state management and optimized rendering**.  
-- Applying **Bootstrap** + **Sass** for clean, consistent, and responsive design systems.  
+- Architecting **robust backend systems** with security and maintainability in mind.  
+- Enhancing **state management** and performance across frontend layers.  
+- Integrating **Bootstrap** and **Sass** for elegant, responsive UI systems.  
+- Streamlining deployments and API efficiency through structural consistency.
 
 ---
 
@@ -63,15 +63,15 @@ With a core specialization in the **MERN stack**, I approach every project as an
 
 > “Elegance emerges not from abundance, but from deliberate subtraction.”
 
-I perceive code as a linguistic system governed by logic — each abstraction must **earn its necessity**.  
-An elegant codebase is one whose internal relations are consistent, minimal, and meaningful.  
-I seek the point where **mathematical precision** meets **aesthetic coherence**.
+I treat programming as a disciplined form of thought —  
+each abstraction must **justify its existence** within the system’s internal logic.  
+A well-structured codebase resembles a philosophical argument: coherent, necessary, and complete.
 
 ---
 
 ### 🌐 Portfolio
 
-You can explore my projects, experiments, and design studies here:  
+Visit my portfolio for selected works and experiments:  
 👉 **[amirshaaban.netlify.app](https://amirshaaban.netlify.app)**
 
 ---
@@ -87,7 +87,7 @@ You can explore my projects, experiments, and design studies here:
 ---
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/Elanza-48/Elanza-48/refs/heads/main/images/loop-code.gif" alt="Flowing Code Animation" height="120"/>
+  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbm00djI2bzVydXltZzZydTVmMWl0YmtkczdsaGZtYWY4ZmE5dWZqOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/tXL4FHPSnVJ0A/giphy.gif" alt="Wave Animation" height="120"/>
   <p><sub><i>Continuous learning. Continuous refinement.</i></sub></p>
 </div>
 
