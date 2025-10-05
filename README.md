@@ -1,5 +1,5 @@
 <div align="center">
-  <img height="160" src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" alt="Waving hand" />
+  <img height="160" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" alt="Developer Animation" />
 </div>
 
 ###
@@ -8,11 +8,11 @@
   <a href="mailto:amirahmed896123@gmail.com" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&style=for-the-badge" height="25" alt="gmail logo" />
   </a>
-  <a href="https://www.linkedin.com/in/amirshaaban/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&style=for-the-badge" height="25" alt="linkedin logo" />
-  </a>
   <a href="https://github.com/AmirAhmedShaaban" target="_blank">
     <img src="https://img.shields.io/static/v1?message=GitHub&logo=github&label=&color=181717&logoColor=white&style=for-the-badge" height="25" alt="github logo" />
+  </a>
+  <a href="https://www.linkedin.com/in/amirshaaban/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&style=for-the-badge" height="25" alt="linkedin logo" />
   </a>
   <a href="https://amirshaaban.netlify.app" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Portfolio&logo=vercel&label=&color=000000&logoColor=white&style=for-the-badge" height="25" alt="portfolio logo" />
@@ -31,9 +31,9 @@
 
 ### 🧭 About Me
 
-I am a **Full-Stack Developer** with a precise focus on **MERN technologies**, committed to the logical architecture and internal consistency of codebases.  
-My philosophy of development values **structure over spontaneity**, **clarity over complexity**, and **rational order over intuition**.  
-I perceive programming as the act of constructing reasoning — a reflection of disciplined thought expressed through syntax.
+I am a **Full-Stack Developer** with a structural and analytical approach to software development.  
+My focus lies in creating scalable, maintainable systems through **MERN technologies** and modular architectures.  
+I perceive programming as a discipline of rational structure — an intellectual craft where clarity, precision, and consistency take precedence over improvisation.
 
 ---
 
@@ -50,8 +50,6 @@ I perceive programming as the act of constructing reasoning — a reflection of 
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="40" alt="bootstrap logo" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" alt="figma logo" />
-  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo" />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo" />
@@ -59,6 +57,8 @@ I perceive programming as the act of constructing reasoning — a reflection of 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo" />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" height="40" alt="sass logo" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" alt="figma logo" />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo" />
   <img width="12" />
@@ -71,31 +71,31 @@ I perceive programming as the act of constructing reasoning — a reflection of 
 
 ### 📈 Current Focus
 
-- Designing modular architectures for scalable applications.  
-- Enhancing backend performance and security layers.  
-- Exploring component reusability patterns in React.  
-- Refining interface structure and user flow consistency.
+- Architecting full-stack applications with robust backend systems.  
+- Advancing expertise in deployment, API design, and application security.  
+- Exploring efficiency in state management and frontend optimization.  
+- Integrating **Bootstrap** and **Sass** methodologies for clean, responsive UI design.
 
 ---
 
 ### 📚 Philosophy
 
-> *“Programming is not creativity — it is logic materialized.”*
+> *“Elegance is not achieved by adding complexity, but by removing everything unnecessary.”*
 
-I consider programming a method of thought formalization.  
-Each component must exist for a reason, and each abstraction must justify its necessity.  
-True elegance arises from **coherence**, not ornamentation.
+I regard programming as a rational dialogue between logic and form.  
+Every abstraction, component, and dependency should justify its presence through necessity and structure.  
+A codebase, like a philosophical argument, must be internally consistent — its beauty lies in its coherence.
 
 ---
 
 ### 🌐 Portfolio
 
-Visit my personal website for projects and ongoing experiments:  
+Visit my personal website to explore my projects and experiments:  
 👉 **[amirshaaban.netlify.app](https://amirshaaban.netlify.app)**
 
 ---
 
-### 📊 GitHub Stats
+### 🔥 GitHub Stats
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=AmirAhmedShaaban&show_icons=true&theme=react&hide_border=false&include_all_commits=true&count_private=true" height="150" alt="stats graph" />
@@ -106,7 +106,12 @@ Visit my personal website for projects and ongoing experiments:
 ---
 
 <div align="center">
-  <img height="120" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Coding animation" />
-  <br/>
-  <sub><strong>crafted by Amir Shaaban • 2025</strong></sub>
+  <img src="https://github.com/AmirAhmedShaaban/AmirAhmedShaaban/assets/placeholder-loading.gif" alt="Animated activity loader" height="120" />
+  <p><sub><i>Continuous learning. Continuous refinement.</i></sub></p>
 </div>
+
+---
+
+<p align="center">
+  <sub>crafted by <strong>Amir Shaaban</strong> • 2025</sub>
+</p>
