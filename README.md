@@ -1,99 +1,102 @@
-<div align="center">
-  <img src="https://i.pinimg.com/originals/4f/71/bf/4f71bf56a3d57e16b00f63fdfc4e93e1.gif" alt="Developer Working Animation" width="100%"/>
+# Amir Shaaban's Portfolio
+
+<div align="center" class="animate__animated animate__fadeIn">
+  <img src="https://lottie.host/7e4b2b7c-2e3e-4d1b-9f0b-8a8f8b6b6d7a/8y9z3x4w.json" alt="Developer Working Animation" style="width: 80%; max-width: 400px;" />
 </div>
 
 ---
 
-<h1 align="center">👋 Hey, I'm <strong>Amir Shaaban</strong></h1>
-<h3 align="center">Full-Stack Developer | MERN Stack Specialist</h3>
+<h1 align="center" class="animate__animated animate__bounceIn">👋 Hey, I'm <strong>Amir Shaaban</strong></h1>
+<h3 align="center" class="text-gray-600 dark:text-gray-300">Full-Stack Developer | MERN Stack Specialist</h3>
 
-<p align="center">
-  <a href="mailto:amirahmed896123@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="25"/>
+<p align="center" class="mt-4">
+  <a href="mailto:amirahmed896123@gmail.com" target="_blank" class="inline-block mx-2 transform hover:scale-105 transition-transform">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="30"/>
   </a>
-  <a href="https://github.com/AmirAhmedShaaban" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="25"/>
+  <a href="https://github.com/AmirAhmedShaaban" target="_blank" class="inline-block mx-2 transform hover:scale-105 transition-transform">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="30"/>
   </a>
-  <a href="https://www.linkedin.com/in/amirshaaban/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="25"/>
+  <a href="https://www.linkedin.com/in/amirshaaban/" target="_blank" class="inline-block mx-2 transform hover:scale-105 transition-transform">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="30"/>
   </a>
-  <a href="https://amirshaaban.netlify.app" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" height="25"/>
+  <a href="https://amirshaaban.netlify.app" target="_blank" class="inline-block mx-2 transform hover:scale-105 transition-transform">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" height="30"/>
   </a>
 </p>
 
 ---
 
-### 🧭 About Me
+## 🧭 About Me
 
-I am a **Full-Stack Developer** who views programming as a discipline of precision and structural clarity.  
-My philosophy emphasizes scalability, logic, and coherence — where systems evolve through balance, not improvisation.  
-With the **MERN Stack**, I focus on building maintainable, modular, and intellectually clean software architectures.
+I am a **Full-Stack Developer** passionate about crafting precise, scalable, and elegant software solutions. My approach to coding emphasizes clarity, modularity, and intellectual rigor. With expertise in the **MERN Stack**, I build robust systems that balance functionality with aesthetic simplicity.
 
 ---
 
-### ⚙️ Technical Stack
+## ⚙️ Technical Stack
 
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="React" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="Node.js" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="40" alt="Express" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40" alt="MongoDB" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="40" alt="Bootstrap" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="JavaScript" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" height="40" alt="Sass" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" alt="Figma" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="Git" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="GitHub" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="VSCode" />
+<div align="center" class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-4 my-6 animate__animated animate__fadeInUp">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="50" alt="React" class="hover:scale-110 transition-transform" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="50" alt="Node.js" class="hover:scale-110 transition-transform" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="50" alt="Express" class="hover:scale-110 transition-transform" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="50" alt="MongoDB" class="hover:scale-110 transition-transform" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="50" alt="Bootstrap" class="hover:scale-110 transition-transform" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="50" alt="JavaScript" class="hover:scale-110 transition-transform" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" height="50" alt="Sass" class="hover:scale-110 transition-transform" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="50" alt="Figma" class="hover:scale-110 transition-transform" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="50" alt="Git" class="hover:scale-110 transition-transform" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="50" alt="GitHub" class="hover:scale-110 transition-transform" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="50" alt="VSCode" class="hover:scale-110 transition-transform" />
 </div>
 
 ---
 
-### 🚀 Current Focus
+## 🚀 Current Focus
 
-- Designing **modular backend systems** with clear API boundaries.  
-- Strengthening **security layers** and deployment consistency.  
-- Refining frontend state logic and render optimization.  
-- Creating responsive UI structures with **Sass** and **Bootstrap** principles.  
+- Architecting **modular backend systems** with well-defined API boundaries.
+- Enhancing **security protocols** and ensuring deployment reliability.
+- Optimizing frontend **state management** and rendering performance.
+- Crafting responsive and visually appealing UIs with **Sass** and **Bootstrap**.
 
 ---
 
-### 📚 Philosophy
+## 📚 Philosophy
 
-> *“Simplicity is the highest form of sophistication.”*  
+> *“Simplicity is the ultimate sophistication.”*  
 > — Leonardo da Vinci
 
-Programming is an act of logical composition.  
-A codebase should be **rational, consistent, and purposeful**, like a well-structured argument.  
-Every abstraction must justify its existence through necessity — nothing more, nothing less.
+I believe programming is an art of logical composition. A well-crafted codebase is **rational, consistent, and purposeful**, like a philosophical treatise. Every abstraction must serve a clear purpose, avoiding unnecessary complexity.
 
 ---
 
-### 🌐 Portfolio
+## 🌐 Portfolio
 
-Visit my portfolio for projects and experiments:  
+Explore my projects and experiments:  
 👉 **[amirshaaban.netlify.app](https://amirshaaban.netlify.app)**
 
 ---
 
-### 📊 GitHub Insights
+## 📊 GitHub Insights
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AmirAhmedShaaban&show_icons=true&theme=react&hide_border=true&include_all_commits=true&count_private=true" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=AmirAhmedShaaban&layout=compact&theme=react&hide_border=true&langs_count=8" height="160" />
-  <img src="https://streak-stats.demolab.com?user=AmirAhmedShaaban&theme=react&hide_border=true" height="160" />
+<div align="center" class="flex flex-wrap justify-center gap-4 my-6 animate__animated animate__fadeIn">
+  <img src="https://github-readme-stats.vercel.app/api?username=AmirAhmedShaaban&show_icons=true&theme=react&hide_border=true&include_all_commits=true&count_private=true" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=AmirAhmedShaaban&layout=compact&theme=react&hide_border=true&langs_count=8" height="180" />
+  <img src="https://streak-stats.demolab.com?user=AmirAhmedShaaban&theme=react&hide_border=true" height="180" />
 </div>
 
 ---
 
-<div align="center">
-  <img src="https://i.pinimg.com/originals/df/36/4a/df364a4c6b33c8bba68840254b38f05d.gif" alt="Elegant Animated Footer" height="150"/>
-  <p><sub><i>Continuous learning • Structural refinement • Rational creation</i></sub></p>
+<div align="center" class="animate__animated animate__fadeInUp">
+  <img src="https://lottie.host/9b2f3a4e-2f3e-4d1b-9f0b-8a8f8b6b6d7a/3x4w9z8y.json" alt="Elegant Animated Footer" style="height: 150px;" />
+  <p class="text-gray-500 dark:text-gray-400 text-sm italic">Continuous learning • Structural refinement • Rational creation</p>
 </div>
 
 ---
 
-<p align="center">
+<p align="center" class="text-gray-500 dark:text-gray-400 text-sm">
   <sub>crafted by <strong>Amir Shaaban</strong> • 2025</sub>
 </p>
+
+<!-- Include Tailwind CSS and Animate.css for styling and animations -->
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
