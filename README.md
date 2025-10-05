@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AmirAhmedShaaban/AmirAhmedShaaban/main/assets/dev-header.gif" alt="Amir Shaaban Developer Banner" width="100%" />
+  <img src="https://i.pinimg.com/originals/4f/71/bf/4f71bf56a3d57e16b00f63fdfc4e93e1.gif" alt="Developer Working Animation" width="100%"/>
 </div>
 
 ---
@@ -26,9 +26,9 @@
 
 ### 🧭 About Me
 
-I am a **Full-Stack Developer** who views programming as a discipline of clarity and structure.  
-My interest lies in **system architecture**, **backend efficiency**, and **frontend coherence** — the triad that sustains scalable applications.  
-Through **MERN technologies**, I design logical, modular, and extensible systems that prioritize internal consistency and maintainability.
+I am a **Full-Stack Developer** who views programming as a discipline of precision and structural clarity.  
+My philosophy emphasizes scalability, logic, and coherence — where systems evolve through balance, not improvisation.  
+With the **MERN Stack**, I focus on building maintainable, modular, and intellectually clean software architectures.
 
 ---
 
@@ -52,26 +52,27 @@ Through **MERN technologies**, I design logical, modular, and extensible systems
 
 ### 🚀 Current Focus
 
-- Building **modular backend systems** with well-defined API layers.  
-- Enhancing **deployment pipelines** and **security protocols**.  
-- Exploring **frontend optimization** and advanced **state management** patterns.  
-- Unifying UI logic with **Sass**, **Bootstrap**, and **component-based design**.
+- Designing **modular backend systems** with clear API boundaries.  
+- Strengthening **security layers** and deployment consistency.  
+- Refining frontend state logic and render optimization.  
+- Creating responsive UI structures with **Sass** and **Bootstrap** principles.  
 
 ---
 
 ### 📚 Philosophy
 
-> “Simplicity is not the absence of complexity; it is the mastery of order.”
+> *“Simplicity is the highest form of sophistication.”*  
+> — Leonardo da Vinci
 
-Programming to me is a rational dialogue between form and logic.  
-Each abstraction must justify its existence — a codebase, like a theorem, is only complete when internally consistent.  
-I pursue design that balances **efficiency**, **reason**, and **aesthetic restraint**.
+Programming is an act of logical composition.  
+A codebase should be **rational, consistent, and purposeful**, like a well-structured argument.  
+Every abstraction must justify its existence through necessity — nothing more, nothing less.
 
 ---
 
 ### 🌐 Portfolio
 
-Explore my work and ongoing projects:  
+Visit my portfolio for projects and experiments:  
 👉 **[amirshaaban.netlify.app](https://amirshaaban.netlify.app)**
 
 ---
@@ -87,7 +88,7 @@ Explore my work and ongoing projects:
 ---
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AmirAhmedShaaban/AmirAhmedShaaban/main/assets/codewave.gif" alt="Code Motion Animation" height="140"/>
+  <img src="https://i.pinimg.com/originals/df/36/4a/df364a4c6b33c8bba68840254b38f05d.gif" alt="Elegant Animated Footer" height="150"/>
   <p><sub><i>Continuous learning • Structural refinement • Rational creation</i></sub></p>
 </div>
 
