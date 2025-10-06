@@ -47,8 +47,6 @@ With a passion for the **MERN ecosystem**, I craft end-to-end solutions grounded
 
 </div>
 
-*(All icons are vector-based and scale cleanly on any device)*
-
 ---
 
 ## 🚀 Current Focus
