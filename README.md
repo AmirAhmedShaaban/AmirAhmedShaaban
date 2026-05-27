@@ -1,99 +1,155 @@
-# 🧭 Amir Shaaban — Full-Stack Developer (MERN)
+<!-- HEADER -->
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212749695-a6817c5a-a794-462b-afca-1b5ce7dd5e63.gif" alt="Developer Animation" width="320px" />
-</div>
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,100:0ea5e9&text=Amir%20Ahmed%20Shaaban&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20•%20MERN%20Specialist&descAlignY=58&descSize=18"/>
+</p>
 
 ---
 
-<h1 align="center">👋 Hello, I'm <strong>Amir Shaaban</strong></h1>
-<h3 align="center">Full-Stack Developer | MERN Stack Specialist</h3>
+# 👋 About Me
+
+<img align="right" width="320" src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif"/>
+
+I'm a **Full-Stack MERN Developer** passionate about building scalable and visually polished web applications.
+
+I enjoy transforming complex requirements into elegant digital experiences through clean architecture, reusable systems, and thoughtful UI design.
+
+### Core Focus
+
+- ⚡ Scalable Full-Stack Applications
+- 🎨 Modern Responsive Interfaces
+- 🧠 Clean Architecture & Maintainability
+- 🚀 Performance Optimization
+- 🔗 REST APIs & Integration
+
+---
+
+# ⚙️ Tech Stack
+
+## Frontend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,sass,js,react,nextjs,tailwind,bootstrap" />
+</p>
+
+## Backend & Database
+
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb" />
+</p>
+
+## Tools & Environment
+
+<p>
+  <img src="https://skillicons.dev/icons?i=linux,git,vscode,webstorm,npm,latex" />
+</p>
+
+---
+
+# 📊 GitHub Analytics
 
 <p align="center">
-  <a href="mailto:amirahmed896123@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://github.com/AmirAhmedShaaban" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/amirshaaban/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://amirshaaban.netlify.app" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white" />
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=AmirAhmedShaaban&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmirAhmedShaaban&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
+
+</p>
+
+<p align="center">
+  <img width="70%" src="https://streak-stats.demolab.com?user=AmirAhmedShaaban&theme=tokyonight&hide_border=true&background=0D1117"/>
+</p>
+
+---
+
+# 🏆 Achievements
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=AmirAhmedShaaban&theme=algolia&no-frame=true&no-bg=true&margin-w=8"/>
+</p>
+
+---
+
+# 📈 Contribution Graph
+
+<p align="center">
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=AmirAhmedShaaban&theme=tokyo-night&hide_border=true"/>
+</p>
+
+---
+
+# 🚀 Current Goals
+
+```js
+const amir = {
+  currentlyLearning: ["TypeScript", "Docker", "System Design"],
+  interestedIn: [
+    "Full-Stack Engineering",
+    "Scalable Systems",
+    "Modern UI Architecture",
+  ],
+  openTo: [
+    "Freelance Projects",
+    "Remote Opportunities",
+    "Open Source Collaboration",
+  ],
+};
+```
+
+---
+
+# 📬 Connect With Me
+
+<p align="center">
+
+<a href="https://github.com/AmirAhmedShaaban">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://www.linkedin.com/in/amirshaaban/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="mailto:amirahmed896123@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<a href="https://www.instagram.com/amir_sha3ban1/">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+</a>
+
+<a href="https://www.facebook.com/profile.php?id=61581110564868">
+  <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/>
+</a>
+
+<a href="https://amirshaaban.netlify.app/#">
+  <img src="https://img.shields.io/badge/Portfolio-0ea5e9?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
+
+</p>
+
+---
+
+# 🌐 Portfolio
+
+<p align="center">
+  <a href="https://amirshaaban.netlify.app/#">
+    <img src="https://img.shields.io/badge/Visit-My_Portfolio-0ea5e9?style=for-the-badge"/>
   </a>
 </p>
 
 ---
 
-## 🧩 About Me
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=AmirAhmedShaaban&style=flat-square&color=0ea5e9"/>
+</p>
 
-I’m a **Full-Stack Developer** dedicated to building scalable, maintainable, and elegant software systems.  
-My focus lies in **architectural precision**, **logical composition**, and **visual harmony** across the stack.  
-With a passion for the **MERN ecosystem**, I craft end-to-end solutions grounded in clarity and structure.
-
----
-
-## ⚙️ Tech Stack
-
-<div align="center">
-
-| Frontend | Backend | Tools & Design |
-|-----------|----------|----------------|
-| ![React](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg) | ![NodeJS](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg) | ![Git](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg) |
-| ![Bootstrap](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg) | ![Express](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg) | ![GitHub](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg) |
-| ![Sass](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg) | ![MongoDB](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg) | ![Figma](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg) |
-| ![JavaScript](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg) |  | ![VSCode](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg) |
-
-</div>
-
----
-
-## 🚀 Current Focus
-
-- Architecting **modular backend systems** with clean API contracts.  
-- Implementing **robust security protocols** and optimized deployment pipelines.  
-- Enhancing **frontend performance** with efficient state management.  
-- Designing refined UI systems using **Sass** and **Bootstrap**.  
-
----
-
-## 📖 Philosophy
-
-> “Simplicity is the ultimate sophistication.” — *Leonardo da Vinci*
-
-I perceive programming as a rational art form —  
-a synthesis of **logic**, **structure**, and **intentional design**.  
-Each abstraction must **clarify**, never obscure.  
-Each line of code should express **purpose, coherence, and restraint**.
-
----
-
-## 🌐 Portfolio
-
-🎯 Visit my live portfolio:  
-**[amirshaaban.netlify.app](https://amirshaaban.netlify.app)**
-
----
-
-## 📊 GitHub Insights
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AmirAhmedShaaban&show_icons=true&theme=react&hide_border=true&include_all_commits=true&count_private=true" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=AmirAhmedShaaban&layout=compact&theme=react&hide_border=true&langs_count=8" height="160" />
-  <img src="https://streak-stats.demolab.com?user=AmirAhmedShaaban&theme=react&hide_border=true" height="160" />
-</div>
-
----
-
-<div align="center">
-  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzA1NWZpMmI5NzU0em9yZ3R0Z2Q2MWJ3d2Yycmtza3NpMXAzbzBqaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/78XCFBGOlS6keY1Bil/giphy.gif" alt="Footer Animation" height="120px" />
-  <br/>
-  <sub><i>Continuous learning • Structural refinement • Rational creation</i></sub>
-</div>
+<p align="center">
+  <i>"Architectural precision, logical composition, and visual harmony."</i>
+</p>
 
 ---
 
 <p align="center">
-  <sub>crafted by <strong>Amir Shaaban</strong> • © 2025</sub>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:0f172a,100:0ea5e9"/>
 </p>
