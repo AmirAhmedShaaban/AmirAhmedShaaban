@@ -1,8 +1,14 @@
 /**
- * Generate achievement badge SVGs from GitHub profile data.
+ * Generate achievement badge SVGs and stats.json from GitHub profile data.
  *
- * Reads real GitHub profile data via the REST API (no npm deps needed)
- * and generates an SVG card sheet of achievement badges.
+ * Uses the real GitHub REST/GraphQL API (via GITHUB_TOKEN) to fetch:
+ *  - followers, public repos, account age
+ *  - PRs merged, issues closed, total contributions
+ *  - profile views from komarev.com
+ *
+ * Outputs:
+ *  - assets/achievements.svg   → visual achievement card sheet
+ *  - assets/stats.json         → JSON for shields.io endpoint badges
  */
 
 import https from "node:https";
@@ -14,7 +20,9 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const USERNAME =
   process.env.GITHUB_REPOSITORY?.split("/")[0] || "AmirAhmedShaaban";
 const TOKEN = process.env.GITHUB_TOKEN || "";
-const OUT_FILE = path.resolve(__dirname, "../../assets/achievements.svg");
+const REPO_ROOT = path.resolve(__dirname, "../../");
+const SVG_FILE = path.join(REPO_ROOT, "assets/achievements.svg");
+const JSON_FILE = path.join(REPO_ROOT, "assets/stats.json");
 
 // ── Helpers ────────────────────────────────────────────────────
 
@@ -43,7 +51,7 @@ function fetchJSON(url) {
   });
 }
 
-function fetchJSONWithBody(url, body) {
+function postJSON(url, body) {
   return new Promise((resolve, reject) => {
     const payload = typeof body === "string" ? body : JSON.stringify(body);
     const opts = {
@@ -72,15 +80,21 @@ function fetchJSONWithBody(url, body) {
   });
 }
 
+/** Fetch text content from a URL (for scraping SVG numbers) */
+function fetchText(url) {
+  return new Promise((resolve, reject) => {
+    https
+      .get(url, { headers: { "User-Agent": "achievement-bot/1.0" } }, (res) => {
+        let data = "";
+        res.on("data", (c) => (data += c));
+        res.on("end", () => resolve(data));
+      })
+      .on("error", reject);
+  });
+}
+
 // ── SVG rendering ──────────────────────────────────────────────
 
-/**
- * Render a single achievement card as an SVG <g> group.
- *
- * @param {number} x  Left offset
- * @param {number} y  Top offset
- * @param {{emoji:string, name:string, tier:string, desc:string, color:string, bg:string}} ach
- */
 function cardSVG(x, y, ach) {
   const w = 164,
     h = 176;
@@ -99,11 +113,12 @@ function generateSVG(cards) {
   const cols = Math.min(cards.length, 6);
   const rows = Math.ceil(cards.length / cols);
   const cw = 176,
-    ch = 188;
-  const pw = 72,
+    ch = 188,
+    pw = 72,
     ph = 48;
   const W = cols * cw + pw * 2;
-  const H = rows * ch + ph * 2 + 60; // +60 for title
+  const H = rows * ch + ph * 2 + 60;
+
   const cardsHTML = cards
     .map((ach, i) => {
       const col = i % cols;
@@ -132,16 +147,20 @@ function generateSVG(cards) {
 // ── Main ────────────────────────────────────────────────────────
 
 async function main() {
-  // Fetch real profile data
+  // 1. Fetch REST API profile data
   const profile = await fetchJSON(`https://api.github.com/users/${USERNAME}`);
   const repos = profile?.public_repos ?? 0;
   const followers = profile?.followers ?? 0;
   const created = profile?.created_at ?? null;
+  const yearsActive = created
+    ? Math.max(1, new Date().getFullYear() - new Date(created).getFullYear())
+    : 1;
 
-  // Try fetching contribution data from the GraphQL API
+  // 2. Fetch GraphQL contribution data
   let totalCommits = 0;
   let prsMerged = 0;
   let issuesClosed = 0;
+
   if (TOKEN) {
     const query = JSON.stringify({
       query: `
@@ -150,24 +169,13 @@ async function main() {
             contributionsCollection {
               contributionCalendar { totalContributions }
             }
-            repositories(first: 100, ownerAffiliations: OWNER, isFork: false) {
-              totalCount
-              nodes {
-                defaultBranchRef {
-                  target { ... on Commit { history(first: 0) { totalCount } } }
-                }
-              }
-            }
             pullRequests(states: MERGED) { totalCount }
             issues(states: CLOSED) { totalCount }
           }
         }`,
     });
     try {
-      const gqlResp = await fetchJSONWithBody(
-        "https://api.github.com/graphql",
-        query,
-      );
+      const gqlResp = await postJSON("https://api.github.com/graphql", query);
       const u = gqlResp?.data?.user;
       if (u) {
         totalCommits =
@@ -181,15 +189,29 @@ async function main() {
     }
   }
 
-  // Determine years active
-  const yearsActive = created
-    ? Math.max(1, new Date().getFullYear() - new Date(created).getFullYear())
-    : 1;
+  // 3. Fetch profile views from komarev.com (parse SVG <text> elements)
+  let profileViews = 0;
+  try {
+    const svgText = await fetchText(
+      `https://komarev.com/ghpvc/?username=${USERNAME}`,
+    );
+    // komarev SVG has: <text ...>Profile views</text> then <text ...>65</text>
+    // Extract the last <text> element that contains only digits
+    const textMatches = svgText.match(/<text[^>]*>(\d+)<\/text>/g);
+    if (textMatches) {
+      const nums = textMatches.map((m) => {
+        const n = m.match(/>(\d+)</);
+        return n ? Number(n[1]) : 0;
+      });
+      profileViews = nums.length > 0 ? nums[nums.length - 1] : 0;
+    }
+  } catch {
+    /* ignore — views will show 0 until komarev responds */
+  }
 
-  // Build achievement cards from real data
+  // 4. Build achievement cards from real data
   const cards = [];
 
-  // Core Contributor — based on years active
   if (yearsActive >= 1) {
     cards.push({
       emoji: "🏅",
@@ -202,7 +224,6 @@ async function main() {
     });
   }
 
-  // Pull Shark — based on PRs merged
   if (prsMerged > 0 || repos > 5) {
     const tier = prsMerged >= 50 ? 3 : prsMerged >= 16 ? 2 : 1;
     cards.push({
@@ -215,7 +236,6 @@ async function main() {
     });
   }
 
-  // Quickdraw — based on issues closed
   if (issuesClosed > 0 || repos > 2) {
     const tier = issuesClosed >= 25 ? 3 : issuesClosed >= 8 ? 2 : 1;
     cards.push({
@@ -228,8 +248,6 @@ async function main() {
     });
   }
 
-  // YOLO — determined by pushing directly to main
-  // This is detected from git metadata rather than API, so we include a base badge
   cards.push({
     emoji: "🤘",
     name: "YOLO",
@@ -239,7 +257,6 @@ async function main() {
     bg: "#a855f710",
   });
 
-  // Starstruck — based on stars received (from profile data)
   if (followers > 0) {
     const tier = followers >= 100 ? 3 : followers >= 25 ? 2 : 1;
     cards.push({
@@ -252,7 +269,6 @@ async function main() {
     });
   }
 
-  // Galaxy Brain — based on accepted answers / discussions
   if (totalCommits > 50) {
     cards.push({
       emoji: "🧠",
@@ -269,17 +285,27 @@ async function main() {
     });
   }
 
-  // Generate and write SVG
-  const svg = generateSVG(cards);
-  fs.mkdirSync(path.dirname(OUT_FILE), { recursive: true });
-  fs.writeFileSync(OUT_FILE, svg, "utf-8");
-  console.log(`✅ Wrote ${cards.length} achievement cards → ${OUT_FILE}`);
+  // 5. Write achievements SVG
+  fs.mkdirSync(path.dirname(SVG_FILE), { recursive: true });
+  fs.writeFileSync(SVG_FILE, generateSVG(cards), "utf-8");
+  console.log(`✅ Wrote ${cards.length} achievement cards → ${SVG_FILE}`);
+
+  // 6. Write stats.json for shields.io endpoint badges
+  const stats = {
+    followers,
+    profileViews,
+    publicRepos: repos,
+    totalCommits,
+    prsMerged,
+    issuesClosed,
+    yearsActive,
+    lastUpdated: new Date().toISOString(),
+  };
+  fs.writeFileSync(JSON_FILE, JSON.stringify(stats, null, 2), "utf-8");
+  console.log(`✅ Wrote stats.json → ${JSON_FILE}`);
 }
 
 main().catch((err) => {
   console.error("❌ Failed:", err.message);
   process.exit(1);
 });
-
-// Also export for testing
-export { generateSVG, cardSVG };
