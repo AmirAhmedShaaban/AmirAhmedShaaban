@@ -11,9 +11,8 @@
 </p>
 
 <p align="center">
-  <!-- shields.io endpoint badge — reads profileViews from stats.json (updated by GitHub Action) -->
   <a href="https://github.com/AmirAhmedShaaban">
-    <img src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/AmirAhmedShaaban/AmirAhmedShaaban/main/assets/stats.json&query=profileViews&style=social&logo=github&label=Profile%20Views" />
+    <img src="https://komarev.com/ghpvc/?username=AmirAhmedShaaban&style=social&color=e1e4e8&label=Profile%20Views" />
   </a>
   <a href="https://github.com/AmirAhmedShaaban?tab=followers">
     <img src="https://img.shields.io/github/followers/AmirAhmedShaaban?style=social&logo=github&label=Followers" />
@@ -191,22 +190,6 @@ const amir = {
 | **Projects**       | 15+                   |
 | **Specialization** | MERN Stack            |
 | **Availability**   | Open to opportunities |
-
----
-
-# 🏆 Achievements & Badges
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AmirAhmedShaaban/AmirAhmedShaaban/main/assets/achievements.svg" alt="GitHub Achievements" />
-</p>
-
-## 🎯 Currently Working On
-
-<p align="center">
-  <img src="https://img.shields.io/badge/⚡_Currently_Coding-MERN_Stack-0ea5e9?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/📚_Learning-TypeScript_%26_Next.js-61dafb?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/🚀_Focused_On-Open_Source_Contributions-ff6b6b?style=for-the-badge"/>
-</p>
 
 ---
 
